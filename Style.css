@@ -1,0 +1,598 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("SWS/ST WILLIAM SCHOOL1.png");
+    background-repeat: repeat-y;
+}
+
+
+/* Style the side navigation */
+
+.header {
+    width: 1200px;
+    height: 100px;
+    margin-left: 500px;
+    background-color: rgb(21, 138, 192);
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+}
+
+form.search input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(192, 138, 21);
+    float: left;
+    width: 100px;
+    background: #fdfdfd;
+}
+
+form.search button {
+    background: #2196f3;
+}
+
+form.search button:hover {
+    background: rgb(192, 138, 21);
+}
+
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidenav {
+    height: 600px;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(21, 138, 192);
+    overflow-x: hidden;
+    border: 1px solid orange;
+    padding: 30px;
+    opacity: 90%;
+}
+
+
+/* Side navigation links */
+
+.sidenav a {
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* Change color on hover */
+
+.sidenav a:hover {
+    background-color: rgb(192, 138, 21);
+    color: black;
+}
+
+
+/* Style the content */
+
+.content1 {
+    height: 600px;
+    width: 1200px;
+    margin-left: 500px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(21, 138, 192);
+    opacity: 85%;
+    color: rgb(255, 255, 255);
+}
+
+.content2 {
+    height: 500px;
+    width: 1200px;
+    margin-left: 500px;
+    padding-left: 20px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+}
+
+.LOGO2 {
+    padding: px;
+    border: px;
+}
+
+.footer1 {
+    background-color: rgb(21, 138, 192);
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.fa {
+    padding: 1px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.header2 {
+    width: 1200px;
+    height: 100px;
+    margin-left: 500px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+    opacity: 75%;
+}
+
+.content {
+    height: 1600px;
+    width: 1240px;
+    margin-left: 500px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+}
+
+.box {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box1 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box2 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box3 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box4 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box5 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box6 {
+    height: 610px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box7 {
+    height: 500px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.footer2 {
+    background-color: rgb(21, 138, 192);
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+.fa {
+    padding: 1px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.header3 {
+    width: 1210px;
+    height: 100px;
+    margin-left: 500px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+    opacity: 75%;
+}
+
+.FACULTY {
+    width: 550px;
+    height: 65px;
+    margin-left: 800px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    float: top;
+    text-align: center;
+    opacity: 75%;
+}
+
+.item1 {
+    grid-area: header;
+    height: 500px;
+    width: 1200px;
+    color: rgb(255, 255, 255);
+}
+
+.GUIDELINEPIC {
+    height: 470px;
+    width: 1200px;
+}
+
+.item2 {
+    color: rgb(255, 255, 255);
+    width: 1300px;
+    height: 500x;
+    padding: 12px;
+    border: 10px;
+}
+
+.item3 {
+    width: 1210px;
+    height: 300px;
+    padding: 12px;
+    border: 10px;
+}
+
+.grid-container {
+    grid-gap: 5px;
+    background-color: rgb(192, 138, 21);
+    padding: 5px;
+    margin-left: 500px;
+    width: 1220px;
+}
+
+.grid-container>div {
+    background-color: rgb(21, 138, 192);
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    width: 1210px;
+}
+
+p {
+    font-size: 16px;
+    padding: 10px;
+    border: 5px;
+}
+
+.header4 {
+    width: 1200px;
+    height: 100px;
+    margin-left: 500px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+    opacity: 75%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: rgb(21, 138, 192);
+    text-align: center;
+    width: 1200px;
+    margin-left: 500px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    height: 120px;
+    width: 1200px;
+    margin-left: 500px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width: 1200px;
+    margin-left: 500px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: rgb(21, 138, 192);
+    color: white !important
+}
+
+
+/* Add media queries for smaller screens */
+
+@media screen and (max-width:720px) {
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li,
+    .days li {
+        width: 12.5%;
+    }
+    .days li .active {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li,
+    .days li {
+        width: 12.2%;
+    }
+}
+
+.content3 {
+    height: 1000px;
+    width: 1200px;
+    margin-left: 142px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    border: 30px;
+    margin-left: 500px;
+}
+
+.box8 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box9 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box10 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box11 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box12 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box13 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.row {
+    background-color: rgb(21, 138, 192);
+    padding: 70px;
+    opacity: 95%;
+    margin-left: 500px;
+    width: 1200px;
+}
+
+.footer4 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-left: 500px;
+    width: 1200px;
+}
+
+@media (max-width: 600px) {
+    .row {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.header5 {
+    width: 1200px;
+    height: 100px;
+    margin-left: 150px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    float: top;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.content5 {
+    height: 2200px;
+    width: 1200px;
+    margin-left: 142px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(21, 138, 192);
+    color: rgb(255, 255, 255);
+    margin-left: 500px;
+}
+
+.box14 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.box15 {
+    height: 300px;
+    width: 550px;
+    padding-left: 20px;
+    border: 30px;
+    background-color: rgb(192, 138, 21);
+    color: rgb(255, 255, 255);
+    float: left;
+}
